@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "hardhat/console.sol";
 
-contract AirDrop is ERC20("AirDrop", "AD") {
+contract AirDrop is ERC20("DAONOW", "DAIO") {
     bytes32 public immutable root;
     uint256 public immutable rewardAmount;
     mapping(address => bool) claimed;
